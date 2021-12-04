@@ -291,6 +291,7 @@ Very handy alternative to `dump()` is `dumpe()` (ie. dump and exit) and `bdump()
 ```php
 bdump([2, 4, 6, 8], 'even numbers up to ten');
 bdump([1, 3, 5, 7, 9], 'odd numbers up to ten');
+// or Tracy\Debugger::barDump($var);
 ```
 
 ![bar dump](https://nette.github.io/tracy/images/tracy-bardump.png)
